@@ -56,7 +56,7 @@ h1
 }
 
 body{ 
-	background-image: url('background.png'); 
+	background-image: url('../files/background.png'); 
 	background-repeat: repeat; 
 	background-position: top left; 
 	background-attachment: fixed; 
@@ -125,52 +125,58 @@ span{
 	margin-right:484px;
 	
 }
+#drawimage{
+	padding-top:36px;
+}
+#connect4image{
+	width:350px;
+	height:250px;
+	padding-top:10px;
+}
+#revealjsimage{
+	width:320px;
+	height:156px;
+	padding-top:75px;
+}
 #paycalcimage{
 	width:300px;
 	height:312px;
 	padding-top:40px;
-	float:left;
 }
 
 #turbineimage{
 	width:363px;
 	height:252px;
-	float:right;
 	padding-top:40px;
 }
 
 #roboticsimage{
 	width:363px;
 	height:250px;
-	float:left;
 	padding-top:50px;
 }
 
 #crystalimage{
 	width:300px;
 	height:312px;
-	float:right;
 	padding-top:50px;
 }
 
 #computerimage{
 	width:293px;
 	height:257px;
-	float:right;
 	margin-top:36px;
 }
 
 #munimage{
 	width:303px;
 	height:390px;
-	float:right;
 	margin-top:36px;
 }
 
 #chessimage{
 	width:210px;
 	height:212px;
-	float:right;
 	margin-top:67px;
 }
 
@@ -178,14 +184,12 @@ span{
 #tennisimage{
 	width:325px;
 	height:212px;
-	float:left;
 	margin-top:48px;
 }
 
 #readingimage{
 	width:150px;
 	height:212px;
-	float:right;
 	margin-top:0%;
 }
 
@@ -255,11 +259,6 @@ span{
 .type2{
 	padding-left:75px;
 }
-#connect4image{
-	width:350px;
-	height:250px;
-	padding-top:10px;
-}
 .banners{
 	padding-right:80px;
 	width:500px;
@@ -270,4 +269,10 @@ span{
 	text-align:left;
 	padding-left:150px;
 	padding-top:50px;
+}
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
 }
