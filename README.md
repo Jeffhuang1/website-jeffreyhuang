@@ -1,2 +1,3 @@
 # website-jeffreyhuang<br>
-http://csclub.uwaterloo.ca/~p23huang
+Deprecated Repository<br>
+Please go to https://github.com/Jeffhuang1/personal-website-2.0
